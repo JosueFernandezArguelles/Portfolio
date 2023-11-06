@@ -2,13 +2,13 @@
   margin-top: 200px;
 }
 
-.grid-container {
+.flex-container {
   padding: 10px;
   display: flex;
   justify-content: center;
 }
 
-.grid-item {
+.flex-container--item {
   background-color: #333;
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
@@ -17,7 +17,7 @@
   transition: background-color rgba(255, 255, 255, 0.8);
 }
 
-.grid-item:hover {
+.flex-container--item:hover {
   background-color: #111;
     transition: background-color linear;
 }
@@ -30,11 +30,11 @@
   background-color: #333;
 }
 
-.nav-bar-element {
+.navigation-bar--element{
   float: left;
 }
 
-.nav-bar-element a {
+.navigation-bar--element a {
   display: block;
   color: white;
   text-align: center;
@@ -43,7 +43,7 @@
 }
 
 /* Change the link color to #111 (black) on hover */
- .nav-bar-element a:hover {
+ .navigation-bar--element a:hover {
   background-color: #111;
 }
 
