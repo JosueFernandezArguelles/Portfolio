@@ -1,0 +1,59 @@
+.content{
+  margin-top: 200px;
+}
+
+.grid-container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-item {
+  background-color: #333;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  transition: background-color rgba(255, 255, 255, 0.8);
+}
+
+.grid-item:hover {
+  background-color: #111;
+    transition: background-color linear;
+}
+
+.navigation-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-bar-element {
+  float: left;
+}
+
+.nav-bar-element a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+ .nav-bar-element a:hover {
+  background-color: #111;
+}
+
+* {
+  text-align: center;
+  color: white;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background-image: url("../images/numeros-que-caen-digitales-codigo-binario-estilo-matrix-fondo-azul_1017-37387.avif");
+
+}
